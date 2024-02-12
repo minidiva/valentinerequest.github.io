@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>please</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+    <img src="kitten.jpg" class="cat-img">
+    <p class="centered-text">Will you be My Valentine???</p>
+    <div class="buttons">
+      <button class="buttonyes" onclick="redirectToOtherPage()">yes <3</button>
+      <button class="buttonno" onclick="decreaseSize(this)">I no no wanna :(</button>
+    </div>
+  </div>
+  <script>
+    let size = 1; // Начальный размер
+
+    function decreaseSize(button) {
+      size -= 0.1; // Уменьшаем размер на 0.1
+      button.style.transform = "scale(" + size + ")";
+    }
+    function redirectToOtherPage() {
+      window.location.href = "yay.html";
+    }
+  </script>
+</body>
+</html>

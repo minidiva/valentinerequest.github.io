@@ -1,0 +1,46 @@
+body {
+  background-color: #ffe6f3; /* Создаем градиентный фон */
+  font-family: "Protest Riot" sans-serif;
+}
+.container {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.centered-text {
+  font-size: 34px;
+  color: #ff1493;
+}
+.buttons {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.buttonyes {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #80ff64;
+  border-radius: 15px;
+  width: 175px;
+  height: 65px;
+  font-size: 25px;
+}
+.buttonno {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff5e5e;
+  border-radius: 15px;
+  font-size: 25px;
+  transition: transform 0.3s;
+}
+.cat-img {
+  width: 20rem;
+  height: 20rem;
+}
+.small-image {
+  width: 50%;
+}
